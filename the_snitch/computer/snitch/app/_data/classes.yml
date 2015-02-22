@@ -1,0 +1,15 @@
+#class data
+- name: ECE 109 - Introduction to Electrical Engineering
+  id: 34001
+  section: 02-LEC
+  instructor: Massoudi
+
+- name: ECE 109L - Introduction to Electrical Engineering Laboratory
+  id: 34006
+  section: 03-LAB
+  instructor: Mostafa Yazdy
+
+- name: ECE 204 - Introduction to Combination Logic
+  id: 34026
+  section: 02-LEC
+  instructor: Staff

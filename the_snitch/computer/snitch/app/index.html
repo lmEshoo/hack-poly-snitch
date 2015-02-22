@@ -1,0 +1,27 @@
+---
+layout: default
+title: Cal Poly Classes
+---
+<h1 style="background-color: #68ceed; color: #f74f4f;">Oracle</h1>
+
+
+<div class="container">
+  <p>Classes found!</p>
+  <div class="classes">
+    {% for class in site.data.classes %}
+    <h4 style="background-color: #3ce0ec">{{ class.name }}</h4>
+    <p style="background-color: #8ff5fc">
+      <span class="class-div">Class</span>
+      <span class="class-div">Section</span>
+      <span class="class-div $">Instructor</span>
+      <span class="class-div $">Status</span>
+    </p>
+    <p>
+      <span class="class-div">{{ class.id }}</span>
+      <span class="class-div">{{ class.section }}</span>
+      <span class="class-div">{{ class.instructor}}</span>
+      <span class="class-div"><img src="{{ site.url }}/img/circle-green.png"/></span>
+    </p>
+    {% endfor %}
+  </div>
+</div>
